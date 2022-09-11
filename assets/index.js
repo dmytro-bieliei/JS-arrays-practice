@@ -44,4 +44,7 @@ const splicedArr4 = splicedTaskArr4.splice(1,0,'a','b',);
 const splicedArr5 = splicedTaskArr4.splice(-1,0,'c');
 const splicedArr6 = splicedTaskArr4.splice(splicedTaskArr4.length,0,'e');
 
+// sort
+const sortTaskArr1 = [3,4,1,2,7];
+const sortedArr1 = sortTaskArr1.sort();
 
