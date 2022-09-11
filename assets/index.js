@@ -48,3 +48,18 @@ const splicedArr6 = splicedTaskArr4.splice(splicedTaskArr4.length,0,'e');
 const sortTaskArr1 = [3,4,1,2,7];
 const sortedArr1 = sortTaskArr1.sort();
 
+// forEach
+const forEachTaskArr1 = [
+  {firstName: 'Test', lastName: 'Testovich', age: 42, gender: 'male',},
+  {firstName: 'User', lastName: 'Userovich', age: 12, gender: 'male',},	
+  {firstName: `Test'ya`, lastName: 'Testovna', age: 16, gender: 'female',},
+  {firstName: 'Logina', lastName: `Consol'evna`, age: 42, gender: 'female',} 	
+];
+const callback = function (currentElem, index, arr){
+  console.log('firstName: ',currentElem);
+  // console.log(`index:  ${index}`);
+  // console.log(`array:`);
+  // console.log(arr);
+};
+forEachTaskArr1.forEach(callback);
+
