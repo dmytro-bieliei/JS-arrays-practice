@@ -63,3 +63,11 @@ const callback = function (currentElem, index, arr){
 };
 forEachTaskArr1.forEach(callback);
 
+  // flat
+  const flatTaskArr = [
+    [1,2,3],
+    [10,20,30],
+    [100,200,300],
+    [1000,2000,3000]
+  ];
+  const flatedArr = flatTaskArr.flat(flatTaskArr.length);
