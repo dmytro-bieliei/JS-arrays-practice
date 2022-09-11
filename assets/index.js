@@ -13,3 +13,7 @@ const pushedArr = pushTaskArr.push(4,5,6);
 
 const unshTaskArr = [1,2,3];
 const unshiftedArr = unshTaskArr.unshift(4,5,6);
+
+// shift
+const shiftTaskArr = ['js','css','jq'];
+const shiftedArr = shiftTaskArr.shift();
