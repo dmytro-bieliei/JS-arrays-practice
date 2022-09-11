@@ -28,3 +28,20 @@ const slicedArr = sliceTaskArr.slice(0,3);
 
 const slicedArr1 = sliceTaskArr.slice(3);
 const slicedArr2 = sliceTaskArr.slice(-2);
+
+// splice
+const splicedTaskArr1 = [1,2,3,4,5];
+const splicedArr1 = splicedTaskArr1.splice(2,1);
+
+const splicedTaskArr2 = [1,2,3,4,5];
+const splicedArr2 = splicedTaskArr2.splice(1,3);
+
+const splicedTaskArr3 = [1,2,3,4,5];
+const splicedArr3 = splicedTaskArr3.splice(3,0,'a','b','c');
+
+const splicedTaskArr4 = [1,2,3,4,5];
+const splicedArr4 = splicedTaskArr4.splice(1,0,'a','b',);
+const splicedArr5 = splicedTaskArr4.splice(-1,0,'c');
+const splicedArr6 = splicedTaskArr4.splice(splicedTaskArr4.length,0,'e');
+
+
