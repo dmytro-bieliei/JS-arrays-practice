@@ -71,3 +71,24 @@ forEachTaskArr1.forEach(callback);
     [1000,2000,3000]
   ];
   const flatedArr = flatTaskArr.flat(flatTaskArr.length);
+
+  // map
+const mapTaskArr = [
+  {firstName: 'Test', lastName: 'Testovich', age: 42, gender: 'male',},
+  {firstName: 'User', lastName: 'Userovich', age: 12, gender: 'male',},	
+  {firstName: `Test'ya`, lastName: 'Testovna', age: 16, gender: 'female',},
+  {firstName: 'Logina', lastName: `Consol'evna`, age: 42, gender: 'female',} 	
+];
+const addTelephoneNumber = function (currentElem, index, arr){
+  return ;
+};
+
+// filter
+const filterTaskArr = [
+  {firstName: 'Test', lastName: 'Testovich', age: 27, gender: 'male',},
+  {firstName: 'User', lastName: 'Userovich', age: 12, gender: 'male',},
+  {firstName: `Test'ya`, lastName: 'Testovna', age: 16, gender: 'female',},
+  {firstName: 'Logina', lastName: `Consol'evna`, age: 42, gender: 'female',},
+  {firstName: 'Undefined', lastName: 'Undefinovich', age: 99},
+  {firstName: 'Null', lastName: 'Nullovich', gender: 'male'}
+];
