@@ -7,4 +7,6 @@ const concatedArr = concArr1.concat(concArr2);
 const revArr = [1,2,3];
 const reversedArr = revArr.reverse();
 
-
+// push, unshift
+const pushTaskArr = [1,2,3];
+const pushedArr = pushTaskArr.push(4,5,6);
