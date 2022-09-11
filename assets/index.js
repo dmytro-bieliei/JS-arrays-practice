@@ -17,3 +17,7 @@ const unshiftedArr = unshTaskArr.unshift(4,5,6);
 // shift
 const shiftTaskArr = ['js','css','jq'];
 const shiftedArr = shiftTaskArr.shift();
+
+// pop
+const popTaskArr = ['js','css','jq'];
+const popedArr = popTaskArr.pop();
