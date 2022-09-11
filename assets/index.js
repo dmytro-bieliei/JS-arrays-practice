@@ -21,3 +21,10 @@ const shiftedArr = shiftTaskArr.shift();
 // pop
 const popTaskArr = ['js','css','jq'];
 const popedArr = popTaskArr.pop();
+
+// slice
+const sliceTaskArr = [1,2,3,4,5];
+const slicedArr = sliceTaskArr.slice(0,3);
+
+const slicedArr1 = sliceTaskArr.slice(3);
+const slicedArr2 = sliceTaskArr.slice(-2);
