@@ -89,6 +89,10 @@ const filterTaskArr = [
   {firstName: 'Undefined', lastName: 'Undefinovich', age: 99},
   {firstName: 'Null', lastName: 'Nullovich', gender: 'male'}
 ];
+const filreredTaskArr = filterTaskArr.filter(function(currentElem){
+  return currentElem.age > 17 && currentElem.gender === 'female';
+});
+
 
   // Дан следующий массив [1,2,3, [10,20,30, [100,200,300, [1000, 2000, 3000]]]]. Создайте новый массив на основании старого массива, в котором не будет вложенных массивов.
   const flatTaskArr = [
