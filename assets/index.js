@@ -47,7 +47,7 @@ const splicedArr6 = splicedTaskArr4.splice(splicedTaskArr4.length,0,'e');
 
 // Для решения задач данного блока вам понадобятся следующие методы: sort.
 const sortTaskArr1 = [3,4,1,2,7];
-const sortedArr1 = sortTaskArr1.sort();
+const sortedArr1 = sortTaskArr1.sort(function(a, b) { return a - b });
 
 // Для решения задач данного блока вам понадобятся следующие методы: forEach
 const forEachTaskArr1 = [
