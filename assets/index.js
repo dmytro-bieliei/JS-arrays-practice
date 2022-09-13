@@ -57,9 +57,8 @@ const forEachTaskArr1 = [
   {firstName: `Test'ya`, lastName: 'Testovna', age: 16, gender: 'female',},
   {firstName: 'Logina', lastName: `Consol'evna`, age: 42, gender: 'female',} 	
 ];
-const callback = function (currentElem, index, arr){
-  console.log('firstName: ',currentElem);
-  
+const callback = function(value) {
+  console.log(`User ${value.firstName}  ${value.lastName} is ${value.gender} ${value.age}  years old`);
 };
 forEachTaskArr1.forEach(callback);
 
