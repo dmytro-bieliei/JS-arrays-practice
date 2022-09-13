@@ -69,9 +69,16 @@ forEachTaskArr1.forEach(callback);
     {firstName: `Test'ya`, lastName: 'Testovna', age: 16, gender: 'female',},
     {firstName: 'Logina', lastName: `Consol'evna`, age: 42, gender: 'female',} 	
   ];
-  const addTelephoneNumber = function (currentElem, index, arr){
-    return ;
-  };
+  const addedTelephoneNumberArr = mapTaskArr.map(function (currentElem, index,) {
+    const object = {
+      firstName: currentElem.firstName,
+      lastName: currentElem.lastName,
+      age: currentElem.age,
+      gender: currentElem.gender,
+      telephoneNumber: 0555782210 + index,
+    };
+        return object
+  });
 
   // Создайте новый массив на основании старого массива, в котором будут только те совершеннолетние пользователи, у которых будет определенный пол.
 const filterTaskArr = [
